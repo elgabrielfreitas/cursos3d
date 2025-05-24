@@ -119,7 +119,7 @@ input[type="submit"] {
 }
 button[disabled],
 html input[disabled] {
-	cursor: default;
+	cursor: url('/img/icon-cursor.png'), auto;
 }
 button::-moz-focus-inner,
 input::-moz-focus-inner {
