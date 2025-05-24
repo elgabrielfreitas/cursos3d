@@ -516,9 +516,10 @@ html {
 .member-button-news {
 	position: absolute;
 	font-family: 'Space Grotesk', sans-serif;
-	right: 0px;
+	right: 50px;
 	top: 0px;
-	margin-top: 5px;
+	margin-top: 4px;
+	margin-left: 20px;
     padding: 12px 30px;
     border-radius: 8px;
     font-size: 14px;
@@ -1377,7 +1378,7 @@ html {
 	margin-top: -50px;
 }
 .services .single-service{
-	margin:30px 0;
+	margin:0 0 30px 0;
 	position:relative;
 	padding-left:70px;
 }
