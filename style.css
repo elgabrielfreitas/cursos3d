@@ -53,7 +53,7 @@ body{
 	font-weight: 400;
 	font-size:14px;
 	color:#888;
-	cursor: url('/img/icon-cursor.png'), auto;
+	cursor: url('https://dardodigital.com.br/cursos3D/img/icon-cursor.png'), auto;
 }
 html {
 	scroll-behavior: smooth;
@@ -513,6 +513,31 @@ html {
 	transform: scale(1.03);
 	box-shadow: 0 6px 12px rgba(54, 184, 235, 0.2);
 }
+.member-button-news {
+	position: absolute;
+	font-family: 'Space Grotesk', sans-serif;
+	right: 0px;
+	top: 0px;
+	margin-top: 5px;
+    padding: 12px 30px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white !important;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    background: linear-gradient(to right, #211e52, #2f855a);
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    width: 250px;
+	height: 52px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.member-button-news:hover {
+	background: linear-gradient(to right, #2b6cb0, #38a169); 
+	transform: scale(1.03);
+	box-shadow: 0 6px 12px rgba(54, 184, 235, 0.2);
+}
 .border-mb {
   position: absolute;
   inset: 0;
@@ -549,7 +574,7 @@ html {
 	overflow: hidden;
 	display: flex;
 	justify-content: center;
-	color: white
+	color: white;
 	text-align: center;
 }
 .video-section video {
