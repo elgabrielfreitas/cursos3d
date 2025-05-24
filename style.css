@@ -1000,7 +1000,7 @@ html {
 	padding:120px 0;
 }
 .fun-facts{
-	background:url('/img/fundo-fun-facts.png');
+	background:url('https://dardodigital.com.br/cursos3D/img/fundo-fun-facts.png');
 	background-size:cover;
 	background-repeat:no-repeat;
 }
@@ -1106,12 +1106,12 @@ html {
 .why-choose .choose-right{
 	height:100%;
 	width:100%;
-	background-image:url('/img/sobre-right.png');
+	background-color: #121521;
+	background-image:url('https://dardodigital.com.br/cursos3D/img/sobre-right.png');
 	background-size:cover;
 	background-position:center;
 	background-repeat:no-repeat;
 	position:relative;
-	background-color: #121521;
 }
 .why-choose .choose-right .video {
 	color: #fff;
