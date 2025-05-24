@@ -572,6 +572,7 @@ html {
 .video-content h1 {
 	font-size: 3.2rem;
 	color: #eeeeee;
+	text-align: center;
 }
 .video-content p {
 	font-size: 1.2rem;
