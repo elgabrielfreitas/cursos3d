@@ -644,7 +644,7 @@ html {
 	transform: translateY(-50%);
 	height: 1.2em;
 	width: 10%;
-	background: #ececec; /* amarelo tipo marca-texto */
+	background: #dadada; /* tipo marca-texto */
 	border-radius: 2px;
 	z-index: -1;
 	animation: highlightLoop 5s ease-in-out infinite;
