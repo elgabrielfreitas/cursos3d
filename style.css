@@ -4211,3 +4211,54 @@ html {
 /*=========================
 	End Footer CSS
 ===========================*/
+
+
+/*=========================
+	Start Mobile CSS
+===========================*/
+
+@media screen and (max-width: 768px) {
+  /* Estilos para telas com largura máxima de 768px (celulares) */
+  body {
+    font-size: 16px;
+  }
+  .topbar {
+    display: none;
+  }
+  .member-button {
+    display: none;
+  }
+  .video-section {
+	height: 50vh;
+	align-items: center;
+  }
+  .video-content {
+	padding: 20px 0;
+  }
+  .video-content h1 {
+	font-size: 2.2em;
+	line-height: 50px;
+  }
+  .why-choose{
+	background:#fff;
+	margin-top: -50px;
+	margin-bottom: 5px;
+  }
+  .choose-left {
+	padding: 10px 12px;
+  }
+  .services .single-service {
+	padding-left: 0;
+  }
+  .member-button-news {
+	top: 60px;
+	left: 55px;
+  }
+  .newsletter .subscribe-text h6 {
+	padding: 0 10px;
+  }
+  .newsletter .subscribe-text p {
+	padding: 0 10px;
+  }
+  /* Outros estilos específicos para celulares */
+}
