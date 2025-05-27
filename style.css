@@ -597,7 +597,6 @@ html {
 	padding: 7rem 22rem;
 }
 .video-content h1 {
-	font-size: 3.2rem;
 	color: #eeeeee;
 	text-align: center;
 }
@@ -4214,11 +4213,10 @@ html {
 
 
 /*=========================
-	Start Mobile CSS
+	Start Tablet CSS
 ===========================*/
 
 @media screen and (max-width: 768px) {
-  /* Estilos para telas com largura máxima de 768px (celulares) */
   body {
     font-size: 16px;
   }
@@ -4226,7 +4224,7 @@ html {
     display: none;
   }
   .member-button {
-    display: none;
+	display: none;
   }
   .video-section {
 	height: 50vh;
@@ -4238,6 +4236,7 @@ html {
   .video-content h1 {
 	font-size: 2.2em;
 	line-height: 50px;
+	padding: 0 50px;
   }
   .why-choose{
 	background:#fff;
@@ -4260,5 +4259,36 @@ html {
   .newsletter .subscribe-text p {
 	padding: 0 10px;
   }
-  /* Outros estilos específicos para celulares */
+  .member-button-news {
+	position: sticky;
+	font-family: 'Space Grotesk', sans-serif;
+	right: 50px;
+	top: 0px;
+	margin-top: 20px;
+  }
+}
+
+/*=========================
+	Start Tablet CSS
+===========================*/
+
+@media screen and (max-width: 1199px) {
+  /* Estilos para tablet */
+  body {
+    /* Exemplo: Tamanho de fonte para tablet */
+    font-size: 18px;
+  }
+  .topbar {
+	display: none;
+  }
+  .header .nav li a {
+	font-size: 13px;
+	padding-right: 5px;
+  }
+  .video-content {
+	padding: 7rem 15rem;
+  }
+  .member-button-news {
+	width: 120px;
+  }
 }
